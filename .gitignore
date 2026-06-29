@@ -1,0 +1,30 @@
+# ─── 环境变量（含敏感密钥，禁止提交） ───
+.env
+
+# ─── Python ───
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+*.egg-info/
+*.egg
+dist/
+build/
+
+# ─── 编辑器 / IDE（个人配置，不提交） ───
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ─── 工具缓存 / 生成文件 ───
+.codegraph/
+.omo/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ─── 调试输出 ───
+debug_output.txt
