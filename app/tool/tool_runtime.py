@@ -35,6 +35,7 @@ agent = create_agent(
     tools=[get_user_perference]
 )
 
+#input参数就是AgentState类型
 response = agent.invoke({
     "messages": [
         HumanMessage('i am jack'),

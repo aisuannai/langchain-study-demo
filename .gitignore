@@ -28,3 +28,6 @@ build/
 
 # ─── 调试输出 ───
 debug_output.txt
+
+# ─── 敏感凭据（数据库密码等，禁止提交） ───
+.secrets/

@@ -8,7 +8,7 @@ from langchain.messages import HumanMessage, ToolMessage
 from langchain.agents import create_agent
 
 #函数体是写给 Python 运行时看的；类型注解和 Docstring 是写给 LLM 看的。
-#方特别强调 Type Hints 必须有、Docstring 要准确且简洁——它们直接影响模型能否正确理解、选择并调用你的 Tool
+#特别强调 Type Hints 必须有、Docstring 要准确且简洁——它们直接影响模型能否正确理解、选择并调用你的 Tool
 
 datas=[
     {
